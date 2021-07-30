@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(burger.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;  
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: yellow;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6 ease;
+}
+
+ul li a:hover{
+    color: black;
+    background-color: yellow;
+}
+
+ul li.active a{
+    color: black;
+    background-color: yellow;
+}
+
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.title h1 span{
+    color: yellow;
+}
+
+
+.vertical-bar{
+    height: 100%;
+    background: #000;
+    top: 0;
+    left:0;
+    position: absolute;
+}
+
+    .user-icon{
+        height: 80%;
+        width: 80px;
+    }
+
+    .user-icon .fa{
+        margin: 20px 20px;
+        display: block;
+        color: #ffff
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+.search-icon{
+    height: 60%;
+    width: 80px;
+}
+
+.search-icon .fa{
+    margin: 20px 20px;
+    display: block;
+    color: #ffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.social-icons{
+    height: 35%;
+    width: 80px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%
+    bottom: 0;
+    position: absolute;
+}
+
+.social-icons .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 0.5px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+social-icons .fa:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+
+
+
